@@ -1,0 +1,115 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: white;
+  height: 100vh;
+  position: relative;
+}
+
+.margin{
+  margin-top:15vh;
+}
+
+.Img {
+  border: 1px darkred solid;
+  border-radius: 50px;
+  margin-top: 70px;
+}
+
+.bgColor {
+  background-color: white;
+}
+
+.indigo {
+  background-color: white;
+  border: 1px solid white;
+}
+
+.margin1 {
+  margin-top: 10vh;
+  margin-bottom:10vh;
+}
+
+.margin2 {
+  margin-top: 100px;
+}
+
+.name {
+  color: darkred;
+}
+
+.bg-lightGreen {
+  background-color: lightgreen;
+}
+
+.bg-darkRed{
+  background-color: darkred;
+}
+
+.text-darkred {
+  color: darkred;
+}
+
+.fixed {
+  position: fixed;
+  z-index: 1;
+}
+
+
+li {
+  margin-bottom: 10px;
+}
+
+
+.topNav {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.imgLine2 {
+  margin-left: 250px;
+}
+
+.zoom{
+  -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.zoom:hover{
+  -webkit-transform: scale(3);
+  transform: scale(3);
+  color :#dc3545;
+  background-color:#343a40;
+
+}
+
+.slide{
+  margin-left: 0px;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.slide:hover{
+  margin-right:10rem;
+
+}
+
+.Icn{
+  margin-top: 70px;
+  background-color: #343a40;
+  color:#dc3545;
+}
+
+
+.font-family-dancing{
+  font-family: 'Dancing Script', cursive;
+}
+
+.circled{
+  border:10px darkred solid;
+  border-radius:50%;
+}
